@@ -15,7 +15,7 @@ public class Rotate : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         degrees += increase;
         transform.eulerAngles = Vector3.forward * degrees;
